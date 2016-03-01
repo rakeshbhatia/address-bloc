@@ -17,7 +17,7 @@ RSpec.describe AddressBook do
     book = AddressBook.new
     expect(book.entries.size).to eq(0)
   end
-  
+
   describe "#add_entry" do
     it "adds only one entry to the address book" do
       book = AddressBook.new
